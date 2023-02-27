@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CV YAPIMI</title>
+</head>
+<body style="background-color: aquamarine;">
+    <form  action="submit.html">
+        <fieldset style="border: 10px solid slateblue ;">
+            <legend style="font-weight: bold;">CV</legend>
+          <table cellpadding="5px" cellspacing="10px">
+              
+            <tr>
+                <td>Ad  :</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Soyad :</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+
+            <tr>
+                <td>İl :</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+
+            <tr>
+                <td>E-Mail :</td>
+                <td>
+                    <input type="email">
+                </td>
+
+            </tr>
+
+           
+
+            <tr>
+                <td>Adres :</td>
+                <td>
+                <textarea name="Adres" id="Adres" cols="20" rows="5"></textarea>
+
+                </td>
+            </tr>
+
+
+
+           
+          </table>
+        </fieldset>
+
+        <fieldset style="border: 10px solid slateblue ;">
+            <legend style="font-weight: bold;">Hakkında</legend>
+
+            <table>
+                <h4>Aşağıdaki uğraşların hangilerini yapıyorsunuz veya ilginizi çekiyor işaretleyiniz.</h4>
+                <tr>
+                    <td>
+                        Seçiniz :
+                    </td>
+                    <td>
+                       <input type="checkbox">Satranç Oynamak 
+                    </td>
+                    <td>
+                        <input type="checkbox">Müzik Aleti Çalmak
+                     </td>
+
+                     <td>
+                        <input type="checkbox">Cihazların iç yapıları
+                     </td>
+
+                     <td>
+                        <input type="checkbox">Sosyal Yaşam
+                     </td>
+                </tr>
+                
+                
+                <tr>
+                    <td>Hangisinde En İyisiniz : </td>
+                <td>
+                    <select>
+                        <option>Html-Css</option>
+                        <option>Javascipt</option>
+                        <option>Php</option>
+                        <option>Go</option>
+                        <option>Flutter</option>
+                    </select>
+                </td>
+                </tr>
+
+                <tr>
+                    <td>Seçiniz</td>
+                    <td>
+                        <input list="yuz">
+                        <datalist id="yuz">
+                            <option value="Backend"></option>
+                            <option value="Frontend"></option>
+                        </datalist>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Kendinizi bikaç cümleyle tanıtır mısınız ?</td>
+                    <td>
+                    <textarea name="cv" id="cv" cols="20" rows="5"></textarea>
+
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <input type="submit" value="Gönder">
+                        <input type="button" value="Düzenle">
+                    </td>
+                </tr>
+
+
+            </table>
+
+
+
+
+
+        </fieldset>
+
+
+
+
+    </form>
+</body>
+</html>
